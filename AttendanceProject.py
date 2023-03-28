@@ -25,7 +25,7 @@ def findEncodings(images):
 encoded_face_train = findEncodings(images)
 
 def markAttendance(name):
-    with open('Attendance.csv','r+') as f:
+    with open('Attendance1.csv','r+') as f:
         myDataList = f.readlines()
         nameList = []
         for line in myDataList:
