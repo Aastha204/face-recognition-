@@ -66,7 +66,7 @@ while True:
             markAttendance('Unknown')
     
     cv2.imshow('Webcam',img)
-    if cv2.waitKey(1):
+    if cv2.waitKey(5):
         break
     
         
